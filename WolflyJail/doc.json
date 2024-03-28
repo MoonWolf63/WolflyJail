@@ -1,0 +1,20 @@
+{
+    "name": "WolflyJail",
+    "description": "A jail for users",
+    "author": "Moon Wolf",
+    "config": {
+      "on-join": {
+        "description": "Enabled?",
+        "type": "boolean",
+        "default": true
+      }
+    },
+    "commands": [
+      {
+        "name": "!scramble",
+        "description": "Starts a scramble game",
+        "example": "!scramble",
+        "args": []
+      }
+    ]
+  }
